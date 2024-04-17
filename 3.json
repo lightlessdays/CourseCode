@@ -1,0 +1,24 @@
+{
+  "Subjects": [
+    {
+      "Name": "Operating System",
+      "Notes": "abc.pdf",
+      "Solutions": "pyq.pdf"
+    },
+    {
+      "Name": "Computer Networks",
+      "Notes": "abc.pdf",
+      "Solutions": "pyq.pdf"
+    },
+    {
+      "Name": "Design & Analysis of Algorithms (DAA)",
+      "Notes": "abc.pdf",
+      "Solutions": "pyq.pdf"
+    },
+    {
+      "Name": "Artificial Intelligence (AI)",
+      "Notes": "abc.pdf",
+      "Solutions": "pyq.pdf"
+    }
+  ]
+}
