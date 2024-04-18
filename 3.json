@@ -2,23 +2,23 @@
   "Subjects": [
     {
       "Name": "Operating System",
-      "Notes": "abc.pdf",
-      "Solutions": "pyq.pdf"
+      "Notes": "https://www.google.com",
+      "Solutions": "https://www.facebook.com"
     },
     {
       "Name": "Computer Networks",
-      "Notes": "abc.pdf",
-      "Solutions": "pyq.pdf"
+      "Notes": "https://www.twitter.com",
+      "Solutions": "https://www.instagram.com"
     },
     {
       "Name": "Design & Analysis of Algorithms (DAA)",
-      "Notes": "abc.pdf",
-      "Solutions": "pyq.pdf"
+      "Notes": "https://www.gmail.com",
+      "Solutions": "https://www.yahoo.com"
     },
     {
       "Name": "Artificial Intelligence (AI)",
-      "Notes": "abc.pdf",
-      "Solutions": "pyq.pdf"
+      "Notes": "https://www.amazon.in",
+      "Solutions": "https://www.alibaba.com"
     }
   ]
 }
