@@ -1,24 +1,109 @@
 {
   "Subjects": [
     {
-      "Name": "Operating System",
-      "Notes": "https://www.google.com",
-      "Solutions": "https://www.facebook.com"
+      "Name": "Computer System Architecture",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Mathematics for Computing",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Web Design & Development",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Data Structures",
+      "Notes": "404.html",
+      "Solutions": "404.html"
     },
     {
       "Name": "Computer Networks",
-      "Notes": "https://www.twitter.com",
-      "Solutions": "https://www.instagram.com"
+      "Notes": "404.html",
+      "Solutions": "404.html"
     },
     {
-      "Name": "Design & Analysis of Algorithms (DAA)",
-      "Notes": "https://www.gmail.com",
-      "Solutions": "https://www.yahoo.com"
+      "Name": "Operating Systems",
+      "Notes": "404.html",
+      "Solutions": "404.html"
     },
     {
-      "Name": "Artificial Intelligence (AI)",
-      "Notes": "https://www.amazon.in",
-      "Solutions": "https://www.alibaba.com"
+      "Name": "Internet Technologies",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Theory of Computation",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Combinatorial Optimization",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Programming using Python",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Microprocessor",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Programming Fundamentals using C++",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Discrete Mathematical Structures",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Programming in Java",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Database Management Systems",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Artificial Intelligence",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Data Mining",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Computer Graphics",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+        "Name": "Machine Learning",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Probability for Computing",
+      "Notes": "404.html",
+      "Solutions": "404.html"
+    },
+    {
+      "Name": "Software Engineering",
+      "Notes": "404.html",
+      "Solutions": "404.html"
     }
   ]
 }
