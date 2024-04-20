@@ -1,3 +1,7 @@
+const urlString = "https://docs.google.com/gview?embedded=true&url=https://www.dhruvbadaya.in/CourseCode/Question%20Papers";
+const courseString = "B.Com.%20(Hons.)"
+const subjectString = "Consumer%20Affairs%20and%20Custom%20Carer"
+
 const buttonLinks = {
     "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
     "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
@@ -12,9 +16,7 @@ const buttonLinks = {
     // Add more buttons and links here as needed
 };
 
-var urlString = "https://docs.google.com/gview?embedded=true&url=https://www.dhruvbadaya.in/CourseCode/Question%20Papers";
-var courseString = "B.Com.%20(Hons.)"
-var subjectString = "Consumer%20Affairs%20and%20Custom%20Carer"
+
 
 const buttonsContainer = document.getElementById('buttons-container');
 
