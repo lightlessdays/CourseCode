@@ -20,6 +20,22 @@ const buttonLinks = {
     // Add more buttons and links here as needed
 };
 
+document.getElementById('buttons-container').addEventListener('click', function() {
+    showLoader();
+    // Simulate loading delay
+    setTimeout(function() {
+        hideLoader();
+    }, 3000); // Change 3000 to your desired loading time in milliseconds
+});
+
+function showLoader() {
+    document.getElementById('overlay').style.display = 'block';
+}
+
+function hideLoader() {
+    document.getElementById('overlay').style.display = 'none';
+}
+
 
 
 const buttonsContainer = document.getElementById('buttons-container');
