@@ -1,7 +1,7 @@
 const urlString = "https://docs.google.com/gview?embedded=true&url=https://www.dhruvbadaya.in/CourseCode/Question%20Papers";
 
-var URL = window.location.href;
-var list = URL.toString().replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").split("/")
+var URL = (window.location.href).replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").replace("http://www.dhruvbadaya.in/CourseCode/Question%20Papers/","")
+var list = URL.split("/")
 
 const courseString = list[0]
 const subjectString = list[1]
