@@ -6,8 +6,26 @@ var list = URL.split("/")
 const courseString = list[0]
 const subjectString = list[1]
 
+const buttonLinks = {
+    "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
+    "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
+    // "2021": `${urlString}/${courseString}/${subjectString}/2021.pdf`,
+    //  "2020": `${urlString}/${courseString}/${subjectString}/2020.pdf`,
+     "2019": `${urlString}/${courseString}/${subjectString}/2019.pdf`,
+     "2018": `${urlString}/${courseString}/${subjectString}/2018.pdf`,
+    //  "2017": `${urlString}/${courseString}/${subjectString}/2017.pdf`,
+    //  "2016": `${urlString}/${courseString}/${subjectString}/2016.pdf`,
+    //  "2015": `${urlString}/${courseString}/${subjectString}/2015.pdf`,
+    //  "2014": `${urlString}/${courseString}/${subjectString}/2014.pdf`,
+    // Add more buttons and links here as needed
+};
+
 window.onload = () => {
-    URL = (window.location.href).replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").replace("http://www.dhruvbadaya.in/CourseCode/Question%20Papers/","")
+updatePage();
+}
+
+function updatePage(){
+        URL = (window.location.href).replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").replace("http://www.dhruvbadaya.in/CourseCode/Question%20Papers/","")
    list = URL.split("/")
 
 courseString = list[0]
@@ -28,19 +46,7 @@ subjectString = list[1]
 };
 }
 
-const buttonLinks = {
-    "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
-    "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
-    // "2021": `${urlString}/${courseString}/${subjectString}/2021.pdf`,
-    //  "2020": `${urlString}/${courseString}/${subjectString}/2020.pdf`,
-     "2019": `${urlString}/${courseString}/${subjectString}/2019.pdf`,
-     "2018": `${urlString}/${courseString}/${subjectString}/2018.pdf`,
-    //  "2017": `${urlString}/${courseString}/${subjectString}/2017.pdf`,
-    //  "2016": `${urlString}/${courseString}/${subjectString}/2016.pdf`,
-    //  "2015": `${urlString}/${courseString}/${subjectString}/2015.pdf`,
-    //  "2014": `${urlString}/${courseString}/${subjectString}/2014.pdf`,
-    // Add more buttons and links here as needed
-};
+
 
 
 
@@ -66,7 +72,10 @@ for (const buttonText in buttonLinks) {
          showLoader();
     // Simulate loading delay
     setTimeout(function() {
-        window.location.href = buttonLinks[buttonText];
+        while(true){
+            updatePage();
+            window.location.href = buttonLinks[buttonText];
+        }
         hideLoader();
     }, 3000); // Change 3000 to your desired loading time in milliseconds
     });
