@@ -44,7 +44,18 @@
       "Name": "Programming in Java",
       "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Programming in Java"
+    },
+    {
+      "Name": "Design and Analysis of Algorithms (DAA)",
+      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Design and Analysis of Algorithms"
+    },
+    {
+      "Name": "Computer Networks",
+      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Computer Networks"
     }
+    
   ]
 }
 
