@@ -3,10 +3,10 @@ const urlString = "https://docs.google.com/gview?embedded=true&url=https://www.d
 var URL = (window.location.href).replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").replace("http://www.dhruvbadaya.in/CourseCode/Question%20Papers/","")
 var list = URL.split("/")
 
-const courseString = list[0]
-const subjectString = list[1]
+var courseString = list[0]
+var subjectString = list[1]
 
-const buttonLinks = {
+var buttonLinks = {
     "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
     "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
     // "2021": `${urlString}/${courseString}/${subjectString}/2021.pdf`,
