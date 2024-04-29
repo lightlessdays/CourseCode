@@ -6,6 +6,28 @@ var list = URL.split("/")
 const courseString = list[0]
 const subjectString = list[1]
 
+window.onload = () => {
+    URL = (window.location.href).replace("https://www.dhruvbadaya.in/CourseCode/Question%20Papers/","").replace("http://www.dhruvbadaya.in/CourseCode/Question%20Papers/","")
+   list = URL.split("/")
+
+courseString = list[0]
+subjectString = list[1]
+
+    buttonLinks = {
+    "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
+    "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
+    // "2021": `${urlString}/${courseString}/${subjectString}/2021.pdf`,
+    //  "2020": `${urlString}/${courseString}/${subjectString}/2020.pdf`,
+     "2019": `${urlString}/${courseString}/${subjectString}/2019.pdf`,
+     "2018": `${urlString}/${courseString}/${subjectString}/2018.pdf`,
+    //  "2017": `${urlString}/${courseString}/${subjectString}/2017.pdf`,
+    //  "2016": `${urlString}/${courseString}/${subjectString}/2016.pdf`,
+    //  "2015": `${urlString}/${courseString}/${subjectString}/2015.pdf`,
+    //  "2014": `${urlString}/${courseString}/${subjectString}/2014.pdf`,
+    // Add more buttons and links here as needed
+};
+}
+
 const buttonLinks = {
     "2023": `${urlString}/${courseString}/${subjectString}/2023.pdf`,
     "2022": `${urlString}/${courseString}/${subjectString}/2022.pdf`,
