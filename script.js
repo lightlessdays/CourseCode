@@ -68,15 +68,16 @@ for (const buttonText in buttonLinks) {
     button.textContent = buttonText;
     button.classList.add('button');
     button.addEventListener('click', () => {
+        while(true){
+            updatePage();
         window.location.href = buttonLinks[buttonText];
          showLoader();
     // Simulate loading delay
     setTimeout(function() {
-            updatePage();
-            window.location.href = buttonLinks[buttonText];
-        hideLoader();
+            hideLoader();
     }, 3000); // Change 3000 to your desired loading time in milliseconds
-        return false;
+        }
+        // return false;
     });
     buttonsContainer.appendChild(button);
 }
