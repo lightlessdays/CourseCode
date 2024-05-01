@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Buttons</title>
-    <link rel="stylesheet" href="https://www.dhruvbadaya.in/CourseCode/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Year Selector</title>
+<style>
+  .button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
 </head>
 <body>
-    <br>
-    <b><center><h3>PLEASE SELECT YEAR</h3></center></b>
-    <div id="buttons-container"></div>
-    <p>For new courses released under NEP, Question Papers before 2023 are not available.</p>
-    <div id="overlay" class="overlay">
-        <div class="loader"></div>
-    </div>
-    <script src="https://www.dhruvbadaya.in/CourseCode/script.js"></script>
+
+<button class="button" id="btn2018">2018</button>
+<button class="button" id="btn2019">2019</button>
+<button class="button" id="btn2022">2022</button>
+<button class="button" id="btn2023">2023</button>
+
+<script>
+  document.getElementById("btn2018").addEventListener("click", function() {
+    redirectToYear(2018);
+  });
+
+  document.getElementById("btn2019").addEventListener("click", function() {
+    redirectToYear(2019);
+  });
+
+  document.getElementById("btn2022").addEventListener("click", function() {
+    redirectToYear(2022);
+  });
+
+  document.getElementById("btn2023").addEventListener("click", function() {
+    redirectToYear(2023);
+  });
+
+  function redirectToYear(year) {
+    var currentURL = window.location.href;
+    var newURL;
+
+    // Check if the current URL already ends with .pdf
+    if (currentURL.endsWith(".pdf")) {
+      // If yes, replace the existing filename with the new year
+      var index = currentURL.lastIndexOf("/");
+      newURL = currentURL.substring(0, index + 1) + year + ".pdf";
+    } else {
+      // If not, append the year to the current URL
+      newURL = currentURL + year + ".pdf";
+    }
+
+    // Redirect to the new URL
+    window.location.href = newURL;
+  }
+</script>
+
 </body>
 </html>
