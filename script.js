@@ -1,4 +1,4 @@
-window.location.reload(true);
+// window.location.reload(true);
 
 const urlString = "https://docs.google.com/gview?embedded=true&url=https://www.dhruvbadaya.in/CourseCode/Question%20Papers";
 
@@ -75,11 +75,11 @@ for (const buttonText in buttonLinks) {
     // Simulate loading delay
     setTimeout(function() {
             updatePage();
-            window.location.href = buttonLinks[buttonText],true;
+            window.location.href = buttonLinks[buttonText];
     }, 1500); // Change 3000 to your desired loading time in milliseconds
     setTimeout(function() {
         updatePage();
-        window.location.href = buttonLinks[buttonText],true;
+        window.location.href = buttonLinks[buttonText];
     hideLoader();
 }, 3000); // Change 3000 to your desired loading time in milliseconds
         return false;
