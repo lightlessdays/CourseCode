@@ -51,7 +51,7 @@
       newURL = currentURL.substring(0, index + 1) + year + ".pdf";
     } else {
       // If not, append the year to the current URL
-      newURL = currentURL + year + ".pdf";
+      newURL = "https://docs.google.com/gview?embedded=true&url=" + currentURL + year + ".pdf";
     }
 
     // Redirect to the new URL
