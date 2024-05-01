@@ -79,7 +79,7 @@ for (const buttonText in buttonLinks) {
         updatePage();
         window.location.href = buttonLinks[buttonText];
     hideLoader();
-}, 1500); // Change 3000 to your desired loading time in milliseconds
+}, 3000); // Change 3000 to your desired loading time in milliseconds
         return false;
     });
     buttonsContainer.appendChild(button);
