@@ -114,12 +114,7 @@
       newURL = "https://docs.google.com/gview?embedded=true&url=" + currentURL + year + ".pdf";
     }
 
-    // Simulate delay to see loading indicator
-    setTimeout(function() {
-      // Redirect to the new URL
-      window.location.href = newURL;
-      hideLoadingIndicator();
-    }, 1500); // Adjust the delay time as needed
+     window.location.href = newURL;
   }
 </script>
 
