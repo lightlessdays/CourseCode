@@ -5,6 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Year Selector</title>
 <style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .button {
     background-color: black;
     color: white;
@@ -14,31 +29,76 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 </style>
 </head>
 <body>
 
-<button class="button" id="btn2018">2018</button>
-<button class="button" id="btn2019">2019</button>
-<button class="button" id="btn2022">2022</button>
-<button class="button" id="btn2023">2023</button>
+<div class="button-container">
+  <button class="button" id="btn2018">2018</button>
+  <button class="button" id="btn2019">2019</button>
+  <button class="button" id="btn2022">2022</button>
+  <button class="button" id="btn2023">2023</button>
+</div>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loader"></div>
+</div>
 
 <script>
   document.getElementById("btn2018").addEventListener("click", function() {
+    showLoadingIndicator();
     redirectToYear(2018);
   });
 
   document.getElementById("btn2019").addEventListener("click", function() {
+    showLoadingIndicator();
     redirectToYear(2019);
   });
 
   document.getElementById("btn2022").addEventListener("click", function() {
+    showLoadingIndicator();
     redirectToYear(2022);
   });
 
   document.getElementById("btn2023").addEventListener("click", function() {
+    showLoadingIndicator();
     redirectToYear(2023);
   });
+
+  function showLoadingIndicator() {
+    document.getElementById("loadingOverlay").style.display = "flex";
+  }
+
+  function hideLoadingIndicator() {
+    document.getElementById("loadingOverlay").style.display = "none";
+  }
 
   function redirectToYear(year) {
     var currentURL = window.location.href;
@@ -54,8 +114,12 @@
       newURL = "https://docs.google.com/gview?embedded=true&url=" + currentURL + year + ".pdf";
     }
 
-    // Redirect to the new URL
-    window.location.href = newURL;
+    // Simulate delay to see loading indicator
+    setTimeout(function() {
+      // Redirect to the new URL
+      window.location.href = newURL;
+      hideLoadingIndicator();
+    }, 1500); // Adjust the delay time as needed
   }
 </script>
 
