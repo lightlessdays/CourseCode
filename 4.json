@@ -2,43 +2,51 @@
   "Subjects": [
     {
       "Name": "Contemporary Policy and Institutional Framework",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/Contemporary Policy and Institutional Framework"
     },
     {
       "Name": "System Administration and Maintenance",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/System Administration and Maintenance"
     },
     {
       "Name": "Economy and Politics",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/Economy and Politics"
     },
     {
       "Name": "Multimedia and Web Designing",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/Multimedia and Web Designing"
     },
     {
       "Name": "English Language Through Literature",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/English Language Through Literature"
     },
     {
       "Name": "English Proficiency",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/English Proficiency"
     },
     {
       "Name": "English Fluency",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/English Fluency"
     },
     {
       "Name": "Literary Criticism",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/B.A. Programme/Literary Criticism"
+    },
+    {
+      "Name": "Public Finance",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Public Finance"
+    },
+    {
+      "Name": "Readings on Indian Diversities and Literary Movements",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Readings on Indian Diversities and Literary Movements"
+    },
+    {
+      "Name": "Principles of Macroeconomics",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Principles of Macroeconomics"
+    },
+    {
+      "Name": "Logic",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Logic"
     }
   ]
 }
