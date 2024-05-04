@@ -2,71 +2,60 @@
   "Subjects": [
     {
       "Name": "Artificial Intelligence",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Artificial Intelligence"
     },
     {
       "Name": "Computer Graphics",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Computer Graphics"
     },
     {
       "Name": "Data Mining",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Data Mining"
     },
     {
       "Name": "Database Management System",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Database Management System"
     },
     {
       "Name": "Machine Learning",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Machine Learning"
     },
     {
       "Name": "Discrete Mathematical Structures",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Discrete Mathematical Structures"
     },
     {
       "Name": "Software Engineering",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Software Engineering"
     },
     {
       "Name": "Probability for Computing",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Probability for Computing"
     },
     {
       "Name": "Programming in Java",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Programming in Java"
     },
     {
       "Name": "Design and Analysis of Algorithms (DAA)",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Design and Analysis of Algorithms"
     },
     {
       "Name": "Computer Networks",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Computer Networks"
     },
     {
       "Name": "Introduction to R Programming",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Introduction to R Programming"
     },
     {
       "Name": "Object Oriented Programming with C++",
-      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/C++"
-    }
-    
-    
+    },
+    {
+      "Name": "Information Security",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/Computer Science (Hons.)/Information Security"
+    }    
   ]
 }
 
