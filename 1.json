@@ -1,5 +1,7 @@
 {
   "Subjects": [
+
+    
     {
       "Name": "Bioinorganic Chemistry",
       "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
@@ -29,7 +31,14 @@
       "Name": "Numerical Methods",
       "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
       "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Numerical Methods"
+    },
+    {
+      "Name": "Public Finance",
+      "Syllabus": "https://www.dhruvbadaya.in/CourseCode/404.html",
+      "Solutions": "https://www.dhruvbadaya.in/CourseCode/Question Papers/General Elective/Public Finance"
     }
+
+    
   ]
 }
 
