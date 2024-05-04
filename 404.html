@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
+    margin: 20;
     background-color: #f0f0f0;
   }
 
@@ -53,6 +53,11 @@
     animation: spin 1s linear infinite;
   }
 
+  .desc{
+    color: #808080;
+    size:8px;
+  }
+
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -66,9 +71,10 @@
   <button class="button" id="btn2019">2019</button>
   <button class="button" id="btn2022">2022</button>
   <button class="button" id="btn2023">2023</button>
-</div>
+</div><br><br>
+  <div class="desc">
   <center>Due to Coronavirus outbreak, 2020 and 2021 were online and had Open Book Examinations with question paper of extreme difficulty. Hence, we have omitted those years.</center>
-
+  </div>
 <div class="loading-overlay" id="loadingOverlay">
   <div class="loader"></div>
 </div>
